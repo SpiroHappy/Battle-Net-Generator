@@ -1,0 +1,39 @@
+{
+    "utils": {
+        "license": "",
+        "headless": false,
+        "verbose": true,
+        "use_proxies": true,
+        "thread_count": "1",
+        "iterations": "1",
+        "timeout": "100",
+        "account_format": "2"
+    },
+
+    "captcha": {
+        "use_captcha": false,
+        "captcha_service": "",
+        "cap_key": ""
+    },
+
+    "sms": {
+        "phone_verification": true,
+        "sms_service": "SMSActivate",
+        "sms_key": "",
+        "sms_country": "25",
+        "sms_operator": ""
+    },
+
+    "email": {
+        "email_verification": true,
+        "email_key": "",
+        "email_domain": "outlook.com"
+    },
+
+    "account_settings": {
+        "account_country": "Lao People's Democratic Republic",
+        "custom_name": "",
+        "security_question": "LOL",
+        "custom_password": "Temper&Rapid"
+    }
+}

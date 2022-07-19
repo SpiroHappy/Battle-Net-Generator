@@ -1,0 +1,94 @@
+﻿First Download python here: https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe
+Run the file and make sure to click “Add python to path”
+Now run “PackageInstaller.bat”, if you do not see anything pop up and it goes straight to Press any key to continue. 
+You must do this: https://www.youtube.com/watch?v=dj5oOPaeIqI&ab_channel=TechnoPanti
+
+_______________________________________________________________________________________
+
+Now run the ConfigEditor and fill out everything!
+
+Information and Suggestions
+- You should keep your sms country (docs.5sim.net/#countries-list) and account country the same to limit "post paid phone number" error
+- Account usernames have to be between 6-12 chars
+- Without proxies you can only make 4 accounts per 30m - 1h on home ip
+- Less detected proxies = easier captchas
+
+________________________________________________________________________________________
+
+USEFUL INFORMATION ABOUT SETTINGS
+
+  Utils:
+    * license = the one you got from the seller
+    * headless = if off means you cannot see the browsers (true or false)
+    * verbose = if you want to see logs or not (true or false)
+    * use_proxies = if you want to use proxies or not (true or false)
+    * thread_count = how many browsers you want open at a time
+    * iterations = how many times each browser will reopen (thread_count x iterations = accounts made)
+    * timeout = how do you want to wait for each page/element to load before an error is thrown. Higher timeout is recommended for people with slower proxies/wifi
+    * account_format = what format you want accounts to be in accounts.txt
+       1 - email:password:security_answer
+       2 - Email: Email | Password: Password | Security: Security Answer | Battletag: Account Username
+       3 - Email: Email | Password: Password | Security: Security Answer | Date Made: Date account was made
+       4 - Email: Email | Password: Password | Security: Security Answer
+       Anything Else - [Email: Email, Password: Password, Security: Security Answer]
+
+  Captcha:
+    * use_captcha = if you want bestcaptcha to solve the captchas for you (true or false)
+    * captcha_service = capmonster or bestcaptcha
+    * cap_key = go down for reference
+
+  Sms:
+    * phone_verification = if you want to phone verify your account, this is needed to play warzone (true or false)
+    * sms_service = smsactivate or 5sim
+    * sms_key = go down for reference
+    * sms_country = You can find sms country here: https://docs.5sim.net/#countries-list
+    * sms_operator = what operator you want to use, can find on 5sim.net at the bottom
+
+  Email:
+     * email_verifcation = if you want to verify your email (true or false)
+     * email_key = go down for reference
+     * email_domain = what domain you want to use for emails, recommended is (outlook.com, hotmail.com, gmail.com, yahoo.com, mail.ru etc..)
+
+  Account Settings:
+     * account_country = You can find all the account countries here (Copy and paste): https://pastebin.com/1dSkLNpC
+     * custom_name = if you want a custom username, leave blank if you want random
+     * security_question = leave blank for random, fill out if you want a custom sec question
+
+________________________________________________________________________________________
+
+
+Sms Key
+* First put funds in your account at: https://5sim.net/payment
+* Second after you have funds get your api key here: https://5sim.net/settings/security 
+  It will be under “API key 5sim protocol” and it's the long one
+
+
+Captcha Key
+* First put funds in your account at: https://bestcaptchasolver.com/order
+* After you have funds get your api key here: https://bestcaptchasolver.com/account
+  It will be next to “Access Token”
+
+Email Key
+* First put funds in your account at: https://kopeechka.store/panel.html#
+* get your api key in user profile
+
+Proxies
+* You can get proxies anywhere as long they are ip authorized (Format = host:port)
+* Recommended that you get proxies from your own country, or USA, Canada or Canada
+* Suggested place to get cheap proxies: https://www.webshare.io/
+  These will get you hard captcha though so we recommend you use BestCaptcha
+* Suggested place to get slow but hq proxies (easy captchas):  https://iproyal.com
+* Proxies go in “Proxies.txt”
+
+accounts will go in “Accounts.txt”
+
+
+FAQ's:
+* Unable to locate chrome binary means you don't have chrome installed
+* Timeout Exception means that your proxies weren’t fast enough to load a page
+* If chromedriver and your chrome aren't the same version it will throw an error
+  You can find your version here: chrome://settings/help
+  Download the same driver version here: https://chromedriver.chromium.org/downloads
+* Other errors are usually caused by your proxies or wifi
+
+INSTRUCTIONS NOT MADE BY ME! :)
